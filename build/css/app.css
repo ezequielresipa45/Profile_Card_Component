@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  box-sizing: border-box;
+}
+* a {
+  color: #3e52a3;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  background-color: #19a2ae;
+  position: relative;
+  height: 745px;
+  width: 100%;
+  overflow: hidden;
+}
+.contenedor .contenedor-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .contenedor-card .card {
+  -webkit-box-shadow: 2px 5px 16px 0px #19a2ae, 2px 5px 50px 27px rgba(0, 0, 0, 0.11);
+  box-shadow: 2px 5px 16px 0px #19a2ae, 2px 5px 50px 27px rgba(0, 0, 0, 0.11);
+  width: 350px;
+  height: 375px;
+  background-color: white;
+  border-radius: 1.5rem;
+  z-index: 44;
+}
+.contenedor .contenedor-card .card .div-1 {
+  background-image: url(../../images/bg-pattern-card.svg);
+  height: 14rem;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+}
+.contenedor .contenedor-card .card .logo-perfil {
+  margin-top: -53px;
+}
+.contenedor .contenedor-card .card .logo-perfil img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.contenedor .contenedor-card .card .div-2 {
+  padding: 1.8rem 0;
+}
+.contenedor .contenedor-card .card .div-2 .div-2-datos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.contenedor .contenedor-card .card .div-2 .div-2-datos h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+}
+.contenedor .contenedor-card .card .div-2 .div-2-datos h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  text-align: left;
+  color: #6a6f81;
+  font-weight: 500;
+}
+.contenedor .contenedor-card .card .div-2 p {
+  margin: 0.8rem 0;
+  font-size: 14px;
+  color: #6a6f81;
+}
+.contenedor .contenedor-card .card hr {
+  border-color: #00000013;
+}
+.contenedor .contenedor-card .card .div-3 {
+  display: flex;
+  justify-content: center;
+  padding: 2.3rem 0;
+}
+.contenedor .contenedor-card .card .div-3 h2 {
+  font-size: 18px;
+  padding: 0 3rem;
+}
+.contenedor .contenedor-card .card .div-3 p {
+  color: #6a6f81;
+  line-height: 2rem;
+  letter-spacing: 1.5px;
+  font-size: 10px;
+}
+
+svg {
+  position: absolute;
+}
+
+.svg_uno {
+  bottom: 300px;
+  right: 50vw;
+}
+
+.svg_dos {
+  top: 350px;
+}
+
+/*# sourceMappingURL=app.css.map */

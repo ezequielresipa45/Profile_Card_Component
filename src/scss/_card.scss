@@ -1,0 +1,138 @@
+.contenedor {
+    background-color: $Darkcyan;
+    position: relative;
+    height: 745px;
+    width: 100%;
+    overflow: hidden;
+
+    .contenedor-card {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            -webkit-box-shadow: 2px 5px 16px 0px $Darkcyan, 2px 5px 50px 27px rgba(0, 0, 0, 0.11);
+            box-shadow: 2px 5px 16px 0px $Darkcyan, 2px 5px 50px 27px rgba(0, 0, 0, 0.11);
+
+            width: 350px;
+            height: 375px;
+
+            background-color: white;
+            border-radius: 1.5rem;
+            z-index: 44;
+
+            .div-1 {
+                background-image: url(../../images/bg-pattern-card.svg);
+
+                height: 14rem;
+                border-top-right-radius: 1.5rem;
+                border-top-left-radius: 1.5rem;
+            }
+
+            .logo-perfil {
+                margin-top: -53px;
+
+                img {
+                    border-radius: 50%;
+                    border: 5px solid #fff;
+                }
+            }
+
+            .div-2 {
+                padding: 1.8rem 0;
+
+                .div-2-datos {
+                    display: flex;
+                    justify-content: center;
+                    gap: 1rem;
+
+                    h1 {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-align: right;
+                    }
+
+                    h2 {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 17px;
+                        text-align: left;
+                        color: $Darkgrayishblue;
+                        font-weight: 500;
+                    }
+                }
+
+                p {
+                    margin: 0.8rem 0;
+                    font-size: 14px;
+                    color: $Darkgrayishblue;
+                }
+            }
+
+            hr {
+                border-color: #00000013;
+            }
+
+
+            .div-3{
+
+                display: flex;
+                
+                justify-content: center;
+                
+
+                padding: 2.3rem 0;
+                
+                
+                h2{
+                   font-size: 18px;
+                   padding: 0 3rem;
+                }
+                
+                p{
+                   color: $Darkgrayishblue;
+                   line-height: 2rem;
+                   letter-spacing: 1.5px;
+                   font-size: 10px;
+                }
+                
+                
+                }
+                
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+svg {
+    position: absolute;
+}
+
+.svg_uno {
+    bottom: 300px;
+    
+
+    right: 50vw;
+}
+
+.svg_dos {
+    top: 350px;
+}
